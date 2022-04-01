@@ -1,13 +1,13 @@
 import React from 'react'
 
-function todoitem() {
+function Todoitem(props) {
 
 return (
     <div className='todo-list'>
       <input type="checkbox"/>
-      <p>placeholder</p>
+      <p>{props.item.text}</p>
     </div>
   )
 }
 
-export default todoitem;
+export default Todoitem;

@@ -1,18 +1,17 @@
-import React from 'react';
-import './App.css';
-import Todoitem from './components/Todoitem';
+import React from "react";
+import "./App.css";
+import tododata from "./components/Tododata";
+import Todoitem from "./components/Todoitem";
 
 function App() {
-// const todoitems = todoitem.map((item) =>{
-
-// })
+  const todoitems = tododata.map((item) => 
+    <Todoitem key={item.id} item={item} />,
+    );
+    console.log("todoitems",todoitems)
 
   return (
     <div className="App">
-    <Todoitem />
-    <Todoitem />
-    <Todoitem />
-    <Todoitem />
+      {todoitems}
     </div>
   );
 }

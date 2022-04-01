@@ -7,21 +7,21 @@ const tododata = [
   {
     id: 2,
     text: "Clean the room",
-    completed: true,
+    completed: false,
   },
   {
     id: 3,
     text: "Go for shopping",
-    completed: true,
+    completed: false,
   },
   {
     id: 4,
-    text: "Eat healthy food",
+    text: "practice what study",
     completed: true,
   },
   {
     id: 5,
-    text: "",
+    text: "brsuh 3 times",
     completed: true,
   },
 ]

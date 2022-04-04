@@ -1,25 +1,95 @@
 .todo-list{
-  justify-content: flex-start;
   align-items: center;
-  display: flex;
-  margin: auto;
-  width: 70%;
-  padding: 30px 20px 0;
+  text-align: start;
+  background-color: darkslategrey;
+  margin: 15px 0;
+  border: none;
+  border-radius: 8px;
+  font-size: 17px;
+  width: 400px;
+  color: white;
+  padding: 5px 10px;
   font-family: sans-serif;
-  border-bottom: 1px solid whitesmoke;
 }
 
-.App {
-  background-color: gainsboro;
-  margin: auto;
+.App-background {
   display: flex;
   flex-direction: column;
+  height: 100vh;
+  background-color: white;
+  margin: auto;
   align-items: center;
-  width: 50%;
+  justify-content: flex-start;
   border: 0px solid black;
-  margin-top: 10px;
 }
 
-input[type=checkbox] {
+.heading-text {
+  background-color: teal;
+  align-items: center;
+  justify-content: center;
+  padding: 15px 25px;
+  border-radius: 8px;
+  text-align: center;
+  font-size: 32px;
+  font-weight: bolder;
+  font-family: sans-serif;
+  color: white;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  background-color:  teal;
+  height: 50%;
+  padding: 30px 40px;
+  justify-content: flex-start;
+  align-items: center;
+  color: white;
+  border-radius: 8px;
+}
+
+input[type=text] {
   margin-right: 10px;
+  border-radius: 10px;
+  border-style: none;
+  padding: 10px;
+  outline: none;
+  font-size: large;
+  width: 350px;
+}
+
+.add-button {
+  border-radius: 8px;
+  outline: none;
+  background-color: black;
+  padding: 10px;
+  border: none;
+  font-size: 17px;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+}
+
+.no-item-text {
+  text-align: center;
+  color: black;
+  margin: 50px;
+  font-size: 19px;
+}
+.row{
+  display: flex;
+  flex-direction: row;
+}
+
+/* .column {
+  display: flex;
+  flex-direction: column;
+} */
+
+.jc-space {
+  justify-content: space-between;
+}
+
+.icon {
+  height: 23px;
 }

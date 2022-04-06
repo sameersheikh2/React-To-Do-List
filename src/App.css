@@ -1,15 +1,16 @@
 .todo-list{
   align-items: center;
   text-align: start;
-  background-color: darkslategrey;
+  background-color: cornsilk;
   margin: 15px 0;
   border: none;
   border-radius: 8px;
   font-size: 17px;
   width: 400px;
-  color: white;
+  color: black;
   padding: 5px 10px;
   font-family: sans-serif;
+  cursor: pointer;
 }
 
 .App-background {
@@ -38,24 +39,28 @@
 
 .container {
   display: flex;
+  max-width: 70vh;
   flex-direction: column;
   background-color:  teal;
-  height: 50%;
+  height: 50vh;
   padding: 30px 40px;
+  text-align: center;
   justify-content: flex-start;
   align-items: center;
   color: white;
   border-radius: 8px;
+  min-height: 205px;
+  margin: 0 auto 20px;
 }
 
 input[type=text] {
-  margin-right: 10px;
+  margin: 0 15px 15px 15px;
   border-radius: 10px;
   border-style: none;
   padding: 10px;
   outline: none;
   font-size: large;
-  width: 350px;
+  width: 310px;
 }
 
 .add-button {
@@ -72,19 +77,19 @@ input[type=text] {
 
 .no-item-text {
   text-align: center;
-  color: black;
+  color: white;
   margin: 50px;
-  font-size: 19px;
+  font-size: 20px;
 }
 .row{
   display: flex;
   flex-direction: row;
 }
 
-/* .column {
-  display: flex;
-  flex-direction: column;
-} */
+  /* .column {
+    display: flex;
+    flex-direction: column;
+  } */
 
 .jc-space {
   justify-content: space-between;
@@ -92,4 +97,9 @@ input[type=text] {
 
 .icon {
   height: 23px;
+  cursor: pointer;
+}
+
+.task-done {
+  text-decoration: line-through;
 }
